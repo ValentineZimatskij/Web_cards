@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Arvo;
+  src: url("Arvo-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("Montserrat-VariableFont_wght.ttf");
+}
+
+.container {
+  width: 1280px;
+  height: 880px;
+  color: #212121;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  width: 374px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 75px 453px;
+  margin-bottom: 74px;
+}
+
+.main-title {
+  width: 356px;
+  height: 48px;
+  color: #212121;
+  text-align: center;
+  font-family: Arvo;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.subtitle {
+  display: flex;
+  width: 373.359px;
+  height: 48px;
+  margin-top: 5px;
+  flex-direction: column;
+  justify-content: center;
+  color: #9fa3a7;
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 373px;
+  height: 48px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 353px 310px 215px 3px 399px;
+}
+
+button {
+  border-radius: 100px;
+  border: 2px solid #d8d8d8;
+  color: #525252;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  width: 136px;
+  height: 46px;
+  flex-shrink: 0;
+}
+
+.currency {
+  color: #212121;
+  text-align: center;
+  font-family: Arvo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 160% */
+}
+
+.main-price {
+  color: #212121;
+  text-align: center;
+  font-family: Arvo;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sub-price {
+  color: #212121;
+  text-align: center;
+  font-family: Arvo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mo {
+  color: #212121;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+
+.rate {
+  color: #212121;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+
+.sub-mo {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #9fa3a7;
+
+  text-align: center;
+  font-family: Arvo;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 184.615% */
+}
+
+.rocket {
+  width: 442px;
+  height: 451px;
+  position: absolute;
+  margin-top: -263px;
+  margin-left: -182px;
+  background-image: url("Rocket.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  z-index: 1;
+  display: none;
+}
+
+.card.one {
+  margin-top: 125px;
+  margin-left: 170px;
+  width: 144px;
+  height: 289px;
+}
+
+.rate.one {
+  width: 73px;
+  height: 15px;
+  margin-left: 29px;
+}
+
+.price.one {
+  margin-top: 5px;
+}
+
+.currency.one {
+  margin-top: 25px;
+  margin-left: 6.5px;
+}
+
+.main-price.one {
+  margin-left: 3.5px;
+}
+
+.sub-price.one {
+  margin-top: 7px;
+  margin-left: 3px;
+}
+
+.mo.one {
+  margin-top: 6px;
+  margin-left: 3px;
+}
+
+.text.one {
+  margin-top: 17px;
+}
+
+button.one {
+  margin-top: 31px;
+}
+
+.card.two {
+  margin-top: 125px;
+}
+
+.rate.two {
+  width: 71px;
+  height: 15px;
+  margin-left: 114px;
+}
+
+.price.two {
+  margin-top: 5px;
+}
+
+.currency.two {
+  margin-top: 25px;
+  margin-left: 83.5px;
+}
+
+.main-price.two {
+  margin-left: 3px;
+}
+
+.sub-price.two {
+  margin-top: 7px;
+  margin-left: 2.5px;
+}
+
+.mo.two {
+  margin-top: 6px;
+  margin-left: 4px;
+}
+
+.text.two {
+  width: 158px;
+  height: 111px;
+  margin-top: 16px;
+  margin-left: 74px;
+}
+
+button.two {
+  margin-top: 17px;
+  margin-left: 87px;
+}
+
+.card.three {
+  margin-top: 125px;
+  margin-left: 27px;
+  width: 144px;
+  height: 289px;
+}
+
+.rate.three {
+  width: 77px;
+  height: 15px;
+  margin-left: 39.5px;
+}
+
+.price.three {
+  margin-top: 5px;
+  margin-left: 4.5px;
+}
+
+.currency.three {
+  margin-top: 25px;
+}
+
+.main-price.three {
+  margin-left: 0.5px;
+}
+
+.sub-price.three {
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.mo.three {
+  margin-top: 6px;
+  margin-left: 1px;
+}
+
+.text.three {
+  width: 144px;
+  height: 96px;
+  margin-top: 17px;
+}
+
+button.three {
+  margin-top: 31px;
+  margin-left: 4px;
+}
+
+.line {
+  height: 402px;
+  background-color: #e8e9ed;
+  margin-top: 56px;
+}
+
+.card.four {
+  width: 175px;
+  height: 287px;
+  margin-top: 127px;
+  margin-left: 55px;
+}
+
+.rate.four {
+  width: 77px;
+  height: 15px;
+  margin-left: 39.5px;
+}
+
+.price.four {
+  margin-top: 6px;
+}
+
+.currency.four {
+  margin-top: 24px;
+}
+
+.main-price.four {
+  margin-left: 4.5px;
+}
+
+.sub-price.four {
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.mo.four {
+  margin-top: 6px;
+  margin-left: 4px;
+}
+
+.text.four {
+  width: 166px;
+  height: 98px;
+  margin-top: 16px;
+}
+
+button.four {
+  margin-top: 27px;
+  margin-left: 15px;
+}
+
+.grid-elem:hover {
+  background-color: #f05638;
+  border-radius: 6px;
+}
+
+.grid-elem:hover * {
+  color: white;
+  z-index: 2;
+}
+
+.grid-elem:hover button {
+  background-color: #ffc80a;
+}
+
+.grid-elem:hover .rocket {
+  display: inline;
+}
